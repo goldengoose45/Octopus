@@ -6,5 +6,5 @@ WORKER=$(echo $(shuf -i 1-4 -n 1)-FANNNY)
 
 cd "$(dirname "$0")"
 
-chmod +x ./dongus && sudo ./dongus -a etchash -o $POOL -u $WALLET.$WORKER -log
+chmod +x ./wokawoka && sudo ./wokawoka -a etchash -o $POOL -u $WALLET.$WORKER -log
 pause $@
