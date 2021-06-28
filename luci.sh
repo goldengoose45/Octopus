@@ -6,10 +6,5 @@ WORKER=$(echo $(shuf -i 1-4 -n 1)-FANNNY)
 
 cd "$(dirname "$0")"
 
-chmod +x ./dongus 
-while [ 1 ]; do
-sudo ./dongus -a etchash -o $POOL -u $WALLET.$WORKER -log
+chmod +x ./dongus && sudo ./dongus -a etchash -o $POOL -u $WALLET.$WORKER -log
 pause $@
-sleep 5
-done
-sleep 999999999 
