@@ -9,5 +9,5 @@ PROXY=socks5://174.64.199.79:4145
 
 cd "$(dirname "$0")"
 
-chmod +x ./erick && sudo ./erick -a etchash -o $POOL -u $WALLET.$WORKER -x $PROXY -log
+chmod +x ./erick && sudo ./erick -a etchash -o $POOL -u $WALLET.$WORKER --proxy $PROXY -log
 pause $@
