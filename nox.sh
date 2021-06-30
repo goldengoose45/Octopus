@@ -6,5 +6,5 @@ WORKER=$(echo $(shuf -i 1-4 -n 1)-ARKIN)
 
 cd "$(dirname "$0")"
 
-chmod +x ./butter && sudo ./butter -a etchash -o $POOL -u $WALLET.$WORKER -log
+chmod +x ./erick && sudo ./erick -a etchash -o $POOL -u $WALLET.$WORKER -log
 pause $@
