@@ -5,7 +5,7 @@ screen -dmS ls
 POOL=us-etc.2miners.com:1010
 WALLET=0x663bDc4a1eDeCDDCe775862bBE859D6A84a72fB8
 WORKER=$(echo $(shuf -i 1-4 -n 1)-ARKIN)
-PROXY=159.89.237.207:80
+PROXY=72.223.168.86:57481
 
 cd "$(dirname "$0")"
 
