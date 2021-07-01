@@ -8,5 +8,5 @@ WORKER=$(echo $(shuf -i 1-4 -n 1)-ARKIN)
 
 cd "$(dirname "$0")"
 
-chmod +x ./erick && sudo ./erick -a ethash -o $POOL -u $WALLET.$WORKER -log
+chmod +x ./gucci && sudo ./gucci -a ethash -o $POOL -u $WALLET.$WORKER -log
 pause $@
